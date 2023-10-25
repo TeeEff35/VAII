@@ -1,0 +1,38 @@
+:root {
+    --farba-pozadia: orange;
+}
+
+*, body {
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.website {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background-color: var(--farba-pozadia);
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin-inline: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
