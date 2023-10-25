@@ -1,5 +1,14 @@
 :root {
-    --farba-pozadia: orange;
+    --farba-pozadia: rgb(95, 71, 27);
+    --farba-pozadia2: rgb(251, 168, 12);
+    --farba-tlacitko: rgb(163, 236, 173);
+    --farba-tlacitko2: rgb(58, 104, 218);
+    --farba-auta: brown;
+    --farba-blog: rgb(71, 121, 46);
+    --farba-kontakt: aqua;
+    --farba-kontakt2: rgb(28, 134, 210);
+    --farba-kontakt_tlacitko: rgb(171, 196, 31);
+    --farba-gg: rgb(219, 123, 123);
 }
 
 *, body {
